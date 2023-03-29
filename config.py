@@ -1,5 +1,5 @@
 # API_KEY = "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" 此key无效
-API_KEY = "sk-此处填API秘钥"
+API_KEY = "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"
 API_URL = "https://api.openai.com/v1/chat/completions"
 
 # 改为True应用代理
@@ -25,5 +25,5 @@ MAX_RETRY = 2
 LLM_MODEL = "gpt-3.5-turbo"
 
 # 检查一下是不是忘了改config
-if API_KEY == "sk-此处填API秘钥":
+if API_KEY == "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":
     assert False, "请在config文件中修改API密钥, 添加海外代理之后再运行"
